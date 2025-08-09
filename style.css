@@ -1,14 +1,14 @@
-/* général */
+/* gÃŠnÃŠral */
 
 *
 {
-  color: #660066; /* Tsinghua purple */
+  color: rgb(40,40,40);
   font-family: Verdana, sans-serif;
 }
 
 body
 {
-  background-color: #F1FAFA;
+  bgcolor="#F1FAFA";
   font-size: 100%;
   max-width: 1000px;
   margin: auto;
@@ -16,33 +16,43 @@ body
 
 .cadre
 {
-  background-color: #f9f5fa; /* light lavender tone for harmony */
+  /*background-color: rgb(151, 204, 255);*/
   padding-top: 10px;
 }
+/*
+ol
+{
+	padding: 10px;
+}
+
+ol li
+{
+	padding: 10px;
+}*/
+
+/*ul
+{
+  list-style-type: none;
+}*/
+
+
 
 h1
 {
   font-size: 2em;
   padding-left: 15px;
-  color: #660066; /* Tsinghua purple */
 }
 
 h2
 {
   font-size: 1.5em;
   padding-left: 15px;
-  background-color: #660066; /* Tsinghua purple */
-  color: white; /* better contrast */
-}
-
-a
-{
-  color: #660066; /* Tsinghua purple */
+	background-color: rgb(151, 204, 255);
 }
 
 a:hover
 {
-  color: #993399; /* lighter purple on hover */
+  color: Navy;
 }
 
 a:active
@@ -68,13 +78,12 @@ nav a
   font-size: 1em;
   font-weight: bold;
   text-decoration: none;
-  color: #660066; /* Tsinghua purple */
 }
 
 nav a:hover
 {
-  color: #993399; /* lighter purple on hover */
-  border-bottom: 3px solid #660066; /* Tsinghua purple */
+  color: Navy;
+  border-bottom: 3px solid Navy;
 }
 
 /* Blocs */
@@ -108,7 +117,7 @@ nav a:hover
 
 .photo
 {
-  border: 2px solid #660066; /* Tsinghua purple */
+  border: 2px solid Black;
   height: 200px;
   border-radius: 5px;
   margin-top: 10px;
